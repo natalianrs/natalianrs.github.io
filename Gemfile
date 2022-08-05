@@ -5,6 +5,3 @@ gem "webrick", "~> 1.7"
 
 gem "jekyll-polyglot"
 
-group :jekyll_plugins do
-    gem "jekyll-polyglot"
-end
