@@ -1,5 +1,14 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+:root {
+  --color-background-top-bottom: #D77FA1;
+  --color-font-header-foot: #822659 ;
+  
+  --color-background-body: ##FFF9F9;
+  --color-font-body: #822659 ;
+  
+  --color-link-hover: #FFF9F9;
+}
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -7,6 +16,7 @@ html {
 }
 body {
   margin: 0;
+  background-color: var(--color-background-body);
 }
 article,
 aside,
@@ -42,6 +52,7 @@ samp {
 }
 a {
   background-color: transparent;
+  color:  inherit;
   -webkit-text-decoration-skip: objects;
 }
 abbr[title] {
@@ -3706,7 +3717,7 @@ body {
   padding: 0;
   font-size: 100%;
   line-height: 1.5;
-  color: #555;
+  color: var(--color-font-body);
   font-family: "Montserrat", sans-serif;
 }
 article,
@@ -3727,7 +3738,7 @@ stong {
   margin-top: 1em;
   padding-top: 1em;
   line-height: 1.25;
-  color: #333;
+  
 }
 h1 {
   font-size: 2.5rem;
@@ -3759,7 +3770,7 @@ sup {
   line-height: 0;
 }
 #particles-js {
-  background: #000000;
+  background-color: var(--color-background-top-bottom);  
   display: flex;
   vertical-align: bottom;
   width: 100%;
@@ -3775,7 +3786,7 @@ sup {
 .header {
   z-index: 1;
   text-align: left;
-  color: #fff;
+  color: var(--color-font-header-foot);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -3788,7 +3799,7 @@ sup {
   white-space: nowrap;
   display: block;
   line-height: 1;
-  color: #fff;
+  
 }
 @media only screen and (min-width: 550px) {
   .header .site-title {
@@ -3802,7 +3813,7 @@ sup {
   white-space: nowrap;
   display: block;
   line-height: 1;
-  color: #ffffff;
+  
 }
 @media only screen and (min-width: 550px) {
   .header .site-hello {
@@ -3814,7 +3825,6 @@ sup {
   font-size: 20px;
   display: block;
   line-height: 1;
-  color: #fff;
   margin-top: 10px;
 }
 @media only screen and (min-width: 550px) {
@@ -3824,9 +3834,9 @@ sup {
 }
 .header-links {
   margin: 10px;
+  color:  var(--color-font-header-foot);
 }
 .header-links .link {
-  color: #fff;
   text-decoration: none;
   font-size: 15px;
   margin: 10px;
@@ -3843,7 +3853,6 @@ sup {
   
 }
 .header-lang .link {
-  color: #fff;
   text-decoration: none;
   font-size: 15px;
   margin: 5px;
@@ -3862,7 +3871,7 @@ sup {
 }
 .down,
 .header-icons .icon {
-  color: #fff;
+  color: inherit;
   text-align: center;
 }
 .header-icons .icon {
@@ -3877,7 +3886,7 @@ sup {
 }
 .header-icons .icon:active,
 .header-icons .icon:hover {
-  color: #000000;
+  color: var(--color-link-hover);
   background: #fff;
 }
 @media only screen and (min-width: 550px) {
@@ -3914,11 +3923,11 @@ sup {
 .down .icon:hover,
 .footer a:active,
 .footer a:hover {
-  color: #4b5664;
+  color: var(--color-link-hover);
 }
 
 .user-projects .icon {
-  color:  #000000;
+  color:  var(--color-font-body);
 }
 #about {
   width: 90%;
@@ -3980,7 +3989,6 @@ body {
   margin: 0;
 }
 .user-projects li {
-  color: #000000;
   font-size: 1.1rem;
 }
 .user-projects p {
@@ -4034,11 +4042,11 @@ body {
     border-color 0.3s ease-in;
 }
 .footer {
-  background: #000000;
+  background-color: var(--color-background-top-bottom);
   padding: 10px 0;
   margin-top: 100px;
   text-align: center;
-  color: #fff;
+  color: var(--color-font-header-foot);
 }
 .footer .love {
   color: red;
@@ -4046,5 +4054,5 @@ body {
 .footer a {
   text-decoration: none;
   margin: 0;
-  color: #fff;
+ 
 }
