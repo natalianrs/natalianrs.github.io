@@ -1,13 +1,13 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 :root {
-  --color-background-top-bottom: #D77FA1;
-  --color-font-header-foot: #822659 ;
+  --color-background-top-bottom: #CED89E;
+  --color-font-header-foot: #064635 ;
   
-  --color-background-body: ##FFF9F9;
-  --color-font-body: #822659 ;
+  --color-background-body: #f0edd1;
+  --color-font-body: #064635 ;
   
-  --color-link-hover: #FFF9F9;
+  --color-link-hover: #f0edd1;
 }
 html {
   line-height: 1.15;
@@ -3813,6 +3813,7 @@ sup {
   white-space: nowrap;
   display: block;
   line-height: 1;
+  text-transform: lowercase;
   
 }
 @media only screen and (min-width: 550px) {
