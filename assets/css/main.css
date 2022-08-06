@@ -3803,10 +3803,12 @@ sup {
   display: block;
   line-height: 1;
   color: #ffffff;
+  text-transform: lowercase;
 }
 @media only screen and (min-width: 550px) {
   .header .site-hello {
     margin: 0;
+    margin-bottom: 10px;
     font-size: 50px;
   }
 }
