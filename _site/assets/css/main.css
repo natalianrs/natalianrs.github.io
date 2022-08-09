@@ -1,13 +1,21 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-:root {
+:root,
+:root.dark {
   --color-background-top-bottom: #000;
   --color-font-header-foot: #fff9f9 ;
-  
   --color-background-body: #f9f9f9;
   --color-font-body: #000 ;
-  
   --color-link-hover: #333;
+}
+:root.light {
+  --color-background-top-bottom: #CED89E;
+  --color-font-header-foot: #064635 ;
+  
+  --color-background-body: #f0edd1;
+  --color-font-body: #064635 ;
+  
+  --color-link-hover: #f0edd1;
 }
 html {
   line-height: 1.15;
@@ -252,6 +260,50 @@ template {
   font-weight: 400;
   font-style: normal;
 }
+
+
+.toggle-container {
+     position: absolute;
+     display: inline;
+     top: 1%;
+     fill: var(--color-font-header-foot);
+
+}
+
+.theme-btn {
+  width: 2.5em;
+  height: 2.5em;
+  padding: 0.5em;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+
+}
+
+.theme-btn img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  color: var(--color-font-header-foot);
+  fill: var(--color-font-header-foot);
+}
+
+
+.dark .theme-btn.light {
+  display: inline;
+}
+.dark .theme-btn.dark {
+  display: none;
+}
+
+.light .theme-btn.dark {
+  display: inline;
+}
+.light .theme-btn.light {
+  display: none;
+}
+
 .fa {
   display: inline-block;
   font: 14px/1 FontAwesome;
@@ -3873,7 +3925,7 @@ sup {
 }
 .down,
 .header-icons .icon {
-  color: inherit;
+  color: var(--color-font-header-foot);
   text-align: center;
 }
 .header-icons .icon {

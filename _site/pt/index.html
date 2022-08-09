@@ -16,22 +16,36 @@
 
   <body>
       
+
 <div id="particles-js">
   <div class="header">
-      
+         
+  
   <!-- jekyll-polyglot will process ferh= into href= through the static_href liquid block tag without relativizing the url; useful for making language navigation switchers  -->
   <div class="header-lang">
   
      
-    | <a class="link"  href="/" >en</a>
+    | <a class="link"  href="/" >en</a> 
      
   
      
-    | <a class="link" style="font-weight: bold;" href="/pt/" >pt</a>
+    | <a class="link" style="font-weight: bold;" href="/pt/" >pt</a> 
      
-  
-  </div>
-           
+   | 
+
+      <div class="toggle-container">
+        <button class="theme-btn light" onload="setTheme('light')" onclick="setTheme('light')">
+          <img src="/assets/img/dark.png" alt="sun">
+        </button>
+        <button class="theme-btn dark" onclick="setTheme('dark')">
+          <img src="/assets/img/light.png" alt="moon">
+        </button>
+      </div>    
+   </div>    
+      
+    
+   
+       
       <h1>
         <span class="site-hello">Olá 👋, eu sou</span>
         <span class="site-title">Natalia Soares</span>

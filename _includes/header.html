@@ -1,16 +1,30 @@
 {% assign lang = site.active_lang %}
+
 <div id="particles-js">
   <div class="header">
-      
+         
+  
   <!-- jekyll-polyglot will process ferh= into href= through the static_href liquid block tag without relativizing the url; useful for making language navigation switchers  -->
   <div class="header-lang">
   {% for tongue in site.languages %}
      
-    | <a class="link" {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} {% static_href %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"{% endstatic_href %} >{{ tongue }}</a>
+    | <a class="link" {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} {% static_href %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"{% endstatic_href %} >{{ tongue }}</a> 
      
-  {% endfor %}
-  </div>
-           
+  {% endfor %} | 
+
+      <div class="toggle-container">
+        <button class="theme-btn light" onload="setTheme('light')" onclick="setTheme('light')">
+          <img src="{{ "/assets/img/dark.png" | prepend: site.baseurl}}" alt="sun">
+        </button>
+        <button class="theme-btn dark" onclick="setTheme('dark')">
+          <img src="{{ "/assets/img/light.png" | prepend: site.baseurl}}" alt="moon">
+        </button>
+      </div>    
+   </div>    
+      
+    
+   
+       
       <h1>
         <span class="site-hello">{{site.hello[lang]}}</span>
         <span class="site-title">{{site.user_title}}</span>
