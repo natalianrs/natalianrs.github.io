@@ -5,11 +5,18 @@
 
     <!-- jekyll-polyglot will process ferh= into href= through the static_href liquid block tag without relativizing the url; useful for making language navigation switchers  -->
     <div class="header-lang">
-      {% for tongue in site.languages %}
+      <!-- {% for tongue in site.languages %}
+      | <a class="link" 
+      {% if tongue == site.active_lang %}style="font-weight: bold;" {% endif %} 
+      {% static_href %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}" {% endstatic_href %}>{{ tongue }}</a> 
+      {% endfor %} | -->
 
-      | <a class="link" {% if tongue == site.active_lang %}style="font-weight: bold;" {% endif %} {% static_href %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}" {% endstatic_href %}>{{ tongue }}</a>
-
-      {% endfor %} |
+      <a class="link" {% if site.active_lang == site.default_lang %}style="display:none;" 
+      {% else %}style="font-weight: bold;" {% endif %}
+      href="{{site.url}}">Pt</a>          
+      <a class="link" {% if site.active_lang != site.default_lang %}style="display:none;" 
+      {% else %}style="font-weight: bold;" {% endif %} href="/pt">En </a>   |
+     
       {% if site.enable_darkmode %}
       <div class="toggle">
         <li class="nav-item toggle-container">
