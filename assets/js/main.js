@@ -1,4 +1,3 @@
-const setTheme = theme => document.documentElement.className = theme;
 
 document.addEventListener(
   "DOMContentLoaded",

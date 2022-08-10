@@ -1,22 +1,32 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-:root,
-:root.dark {
+
+:root {
   --color-background-top-bottom: #000;
   --color-font-header-foot: #fff9f9 ;
   --color-background-body: #f9f9f9;
   --color-font-body: #000 ;
   --color-link-hover: #333;
+  --sun-display: none;
+  --moon-padding-left: 10px ;
+  --moon-padding-top: 12px;
+  --moon-display: inline-flex;
+
+
 }
-:root.light {
+html[data-theme='dark'] {
   --color-background-top-bottom: #CED89E;
   --color-font-header-foot: #064635 ;
-  
   --color-background-body: #f0edd1;
   --color-font-body: #064635 ;
-  
   --color-link-hover: #f0edd1;
+  --sun-padding-left: 10px;
+  --sun-padding-top:12px ;
+  --sun-display: inline-flex;
+  --moon-display: none;
 }
+  
+
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -3918,6 +3928,22 @@ sup {
   }
 }
 
+
+.fa-sun-o {
+    padding-left: var(--sun-padding-left);
+    padding-top: var(--sun-padding-top);
+    display: var(--sun-display);
+    cursor: pointer;
+}
+.fa-moon-o {
+    display: inline-flex;
+    padding-left: var(--moon-padding-left);
+    padding-top: var(--moon-padding-top);
+    display : var(--moon-display);
+    cursor: pointer;
+  }
+
+
 .header-icons {
   display: flex;
   justify-content: center;
@@ -3950,6 +3976,10 @@ sup {
     font-size: 35px;
   }
 }
+
+
+
+
 .down {
   position: absolute;
   bottom: 25px;
