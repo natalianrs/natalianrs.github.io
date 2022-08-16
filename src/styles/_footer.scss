@@ -1,0 +1,22 @@
+.footer {
+  background: var(--color-background-top-bottom);
+  padding: 10px 0;
+  margin-top: 100px;
+  text-align: center;
+  color: var(--color-font-header-foot);
+  .love {
+    color: red;
+  }
+  a {
+    text-decoration: none;
+    margin: 0;
+    color: var(--color-font-header-foot);
+     
+    &:hover{
+      color: var(--color-link-hover);
+    }
+    &:active {
+      color: var(--color-link-hover);
+    }
+  }
+}
