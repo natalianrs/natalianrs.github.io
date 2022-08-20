@@ -13,10 +13,10 @@
     color: var(--color-font-header-foot);
      
     &:hover{
-      color: var(--color-link-hover);
+      color: var(--secundary);
     }
     &:active {
-      color: var(--color-link-hover);
+      color: var(--secundary);
     }
   }
 }
