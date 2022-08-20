@@ -67,6 +67,10 @@
     text-decoration: none;
     font-size: 15px;
     margin: 10px;
+    &:hover {
+      color: var(--secundary);
+      font-weight: 800;
+    }
     @media only screen and (min-width:$cut){
       font-size: 20px;
     }
@@ -80,6 +84,9 @@
     text-decoration: none;
     font-size: 15px;
     margin: 5px;
+    &:hover {
+      color: var(--secundary);
+    }
     @media only screen and (min-width: 550px) {
       font-size: 15px;
     }
@@ -95,18 +102,27 @@
    }
   }
 
-.fa-star-o {
+.fa-sun-o {
     padding-left: var(--sun-padding-left);
     padding-top: var(--sun-padding-top);
     display: var(--sun-display);
     cursor: pointer;
+    &:hover {
+      color: var(--secundary);
+    }
+    
+
 }
-.fa-star {
+.fa-moon-o {
+     
     display: inline-flex;
     padding-left: var(--moon-padding-left);
     padding-top: var(--moon-padding-top);
     display : var(--moon-display);
     cursor: pointer;
+    &:hover {
+      color: var(--secundary);
+    }
   }
 
 .header-icons {
@@ -164,10 +180,10 @@
       -webkit-animation: pulse 1.3s infinite;
       animation: pulse 1.3s infinite;
       &:hover {
-        color: var(--color-link-hover);
+        color: var(--secundary);
       }
       &:active {
-        color: var(--color-link-hover);
+        color: var(--secundary);
       }
   }
 }
