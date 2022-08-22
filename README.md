@@ -1,12 +1,26 @@
 # Jekyll Portfolio Theme
-Personal portfolio generated using jekyll and SASS. 
+Portfolio website to showcase personal projects. <br>
 
 ### 🔆 Features
-- Dark/light mode toggle 
-- Multilingual options with [Poliglot Plugin](https://github.com/untra/polyglot)
-- Particles background effect using [Particle.js](https://vincentgarreau.com/particles.js/) 
-- Sweet Scrool
+- Theme generated using Jekyll and SASS. 
+- Dark/light mode toggle with Javascript
+- Multilingual options with [Polyglot](https://github.com/untra/polyglot) plugin
+- Particles background effect using [Particle.js](https://github.com/VincentGarreau/particles.js/) javascript library
+- Smooth Vertical Scrool with [Sweet Scrool](https://github.com/tsuyoshiwada/sweet-scroll) library
 
 #
-### Credits
-Theme customized from [Particle Jekyll Theme](https://github.com/nrandecker/particle)
+### 🛠 Setup 
+- Install Nodejs
+- Install SASS
+- Install Ruby
+- Install Jekyll `gem install jekyll bundler`
+- Install Polyglot Plugin `gem install jekyll-polyglot`
+
+### Running locally
+- Run Sass `sass sass --watch <input_folder>:<output_folder> `
+- Build site and run server `bundle exec jekyll serve --watch`
+
+#
+### ✨Credits
+- Customized template based on [Particle Simple Jekyll Theme](https://github.com/nrandecker/particle) <br>
+- Cards designed by [Brittany Chiang](https://github.com/bchiang7/v4)
