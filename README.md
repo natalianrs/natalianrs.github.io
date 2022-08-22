@@ -9,7 +9,7 @@ Portfolio website to showcase personal projects. <br>
 - Smooth Vertical Scrool with [Sweet Scrool](https://github.com/tsuyoshiwada/sweet-scroll) library
 
 #
-### 🛠 Setup 
+### 🛠 Settings 
 - Install Nodejs
 - Install SASS
 - Install Ruby
