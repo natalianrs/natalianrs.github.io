@@ -1,19 +1,22 @@
 .footer {
-  background: var(--color-background-top-bottom);
-  padding: 10px 0;
+  background-color: var(--color-background-top-bottom);
+  padding: 30px 0;
   margin-top: 100px;
   text-align: center;
   color: var(--color-font-header-foot);
-  .love {
-    color: red;
+  h1 {
+    margin-top:0; 
+    margin:0; 
+    padding-top:1rem;
   }
-  a {
+
+  .fa {
     text-decoration: none;
     margin: 0;
-    color: var(--color-font-header-foot);
-     
+    color: var(--color-font-header-foot);     
     &:hover{
       color: var(--secundary);
+      transform: scale(1.04);
     }
      
   }
