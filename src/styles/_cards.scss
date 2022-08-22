@@ -34,13 +34,13 @@
 }
 
 @mixin tablet {
-  @media (max-width: 600px) {
+  @media (max-width: $cut) {
     @content;
   }
 }
 
 .project-container {
-  max-width: 1000px;
+  max-width: 960px;
   margin: 50px auto;
 }
 
@@ -52,7 +52,7 @@
   grid-template-rows: repeat(6, 1fr);
   align-items: center;
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: $cut) {
     align-items: flex-start;
   }
 }
@@ -61,6 +61,7 @@
   position: relative;
   grid-column: 1 / 7;
   grid-row: 1 / -1;
+
 
   @include tablet {
     grid-column: 1 / -1;
@@ -86,6 +87,7 @@
     p {
       background-color: var(--color-background-top-bottom);
       padding: 20px 25px;
+      
       @include tablet {
         background-color: transparent;
         padding: 20px 0;
@@ -116,12 +118,14 @@
 .project-img {
   position: relative;
   z-index: -1;
-   
-  border-radius: 2px;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border:solid 2px var(--secundary);
   grid-column: 6 / -1;
   grid-row: 1 / -1;
 
-  @media screen and (max-width: 768px) {
+    
+
+  @media screen and (max-width: $cut) {
     height: 100%;
   }
   @include tablet {
@@ -138,22 +142,21 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 3;
-     
+    z-index: 3;     
     border-radius: 2px;
   }
 
   img {
     border-radius: 2px;
-    position: relative;
-    
+    position: relative;    
     filter: grayscale(100%) contrast(1);
     &:hover{
+      z-index:3;
       mix-blend-mode: none;
       filter:none;
     }
      
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: $cut) {
       object-fit: cover;
       width: auto;
       height: 100%;
