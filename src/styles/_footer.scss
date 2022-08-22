@@ -15,8 +15,31 @@
     &:hover{
       color: var(--secundary);
     }
-    &:active {
-      color: var(--secundary);
-    }
+     
   }
+
+  .up {
+  color: var(--color-font-header-foot);
+  position: absolute;   
+  width: 100%;
+  
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  .icon {
+      position: absolute;
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      padding: 0 0 30px 0;
+      fill: var(--color-font-header-foot);
+       
+      &:hover {
+        color: var(--secundary);
+      }
+       }}
 }
