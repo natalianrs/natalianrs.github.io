@@ -23,4 +23,4 @@ Portfolio website to showcase personal projects. <br>
 #
 ### ✨Credits
 - Customized template based on [Particle Simple Jekyll Theme](https://github.com/nrandecker/particle) <br>
-- Cards designed by [Brittany Chiang](https://github.com/bchiang7/v4)
+- Proj cards by [Brittany Chiang](https://github.com/bchiang7/v4)
