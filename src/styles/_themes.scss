@@ -4,13 +4,14 @@
    
   --color-font-header-foot: #efebe8 ;
   --color-font-body: #efebe8 ;
-  --first: #aaa;
-  --secundary: #f78e66;
+  --secundary: #f7238a;
 
    --sun-display: none;
   --moon-padding-left: 10px ;
   --moon-padding-top: 12px;
   --moon-display: inline-flex;
+
+  --tech-icon-filter: grayscale(100)  invert(0.9); 
 
 }
 html[data-theme='dark'] {
@@ -19,12 +20,14 @@ html[data-theme='dark'] {
 
   --color-font-header-foot: #064635 ;
   --color-font-body: #064635 ;
-  --secundary: #be411a;
+  --secundary: #eb462d;
  
    --sun-padding-left: 10px;
   --sun-padding-top:12px ;
   --sun-display: inline-flex;
   --moon-display: none;
+
+  --tech-icon-filter: grayscale(100);
 }
 
 
