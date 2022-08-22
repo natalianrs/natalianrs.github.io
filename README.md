@@ -26,5 +26,5 @@ Portfolio website to showcase personal projects. <br> <br>
 
 #
 ### ✨Credits
-- [Particles Theme](https://github.com/nrandecker/particle) <br>
+- [Particles Jekyll Theme](https://github.com/nrandecker/particle) <br>
 - [Brittany Chiang](https://github.com/bchiang7/v4)
