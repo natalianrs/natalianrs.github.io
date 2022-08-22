@@ -1,9 +1,10 @@
-# Jekyll Portfolio Theme
-Portfolio website to showcase personal projects. <br>
+   <h1> Jekyll Portfolio Theme </h1>
+Portfolio website to showcase personal projects. <br> <br>
 
-<a> <img src="https://custom-icon-badges.herokuapp.com/badge/-In development-ea4aaa?color=F25278&style=for-the-badge&logo=star&logoColor=white"/></a> 
-<a> <img src="https://custom-icon-badges.herokuapp.com/github/last-commit/natalianrs/natalianrs.github.io?color=F25278&style=for-the-badge&logo=history&logoColor=white"/></a> 
- 
+<p> <img src="https://custom-icon-badges.herokuapp.com/badge/-In development-ea4aaa?color=F25278&style=for-the-badge&logo=star&logoColor=white"/>    <img src="https://custom-icon-badges.herokuapp.com/github/last-commit/natalianrs/natalianrs.github.io?color=F25278&style=for-the-badge&logo=history&logoColor=white"/> 
+   </p>
+
+
 ### 🔆 Features
 - Theme generated using Jekyll and SASS. 
 - Dark/light mode toggle with Javascript
