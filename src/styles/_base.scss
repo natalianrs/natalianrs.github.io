@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-$cut: 550px;
+$cut: 768px;
 
 
 
@@ -20,7 +20,7 @@ body {
 }
 article, aside, figcaption, figure, footer, header, nav, section {
     display: block;
-}
+} 
 h1, h2, h3, h4, stong {
     margin-top: 1em;
     padding-top: 1em;
@@ -55,4 +55,4 @@ a img {
 }
 sup, sub {
     line-height: 0;
-}
+}  
