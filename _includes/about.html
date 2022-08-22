@@ -2,44 +2,71 @@
 <div class="user-details">
   <div class="section-title">
   <h1> {{ site.data.contents.about_title }} </h1> </div>
-  <h4>{{ site.data["contents"]["about_description"] }}</h4>
+  <h4>{{ site.data["contents"]["about_description"] }} 
+     
+   </h4>
+  
+  
+  
 </div>
+
+  <div class="user">
+       
+    <div class="tech">
+        <h4> Big Data </h4>
+       <p>{{ site.data["contents"]["stack_description"] }}</p>
+       <div class="tech-icons">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" width="90%" /> 
+
+         <img src="{{'/assets/img/cassandra.svg' | prepend: site.baseurl}}" width="110%" >
+          
+         
+           <img src="{{'/assets/img/airflow.svg' | prepend: site.baseurl}}" width="60%">
+            <img src="{{'/assets/img/spark.svg' | prepend: site.baseurl}}" width="100%"> 
+      
+      
+           </div>
+     </div>
+   
+    <div class="tech">
+        <h4> Cloud Solutions </h4>
+       <p>{{ site.data["contents"]["stack_description"] }}</p>
+       <div class="tech-icons">
+         <img src="{{'/assets/img/aws.svg' | prepend: site.baseurl}}" width="120%">
+          <img src="{{'/assets/img/docker.svg' | prepend: site.baseurl}}" width="100%">
+      
+           </div>
+     </div>
+  </div>
 
   <div class="user">
     <div class="tech">
         <h4> Back End </h4>
         <p>{{ site.data["contents"]["stack_description"] }}</p>  
         <div class="tech-icons">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="80px">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" width="80px" >
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width="80px">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="100%">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" width="100%">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" width="100%">
+         
+         
+
+      
       </div>
-                  
-      
     </div>
    
     <div class="tech">
-          <h4> Front End </h4>
-         <p>{{ site.data["contents"]["stack_description"] }}</p> 
-         <div class="tech-icons">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="80px">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="80px">
-         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="80px"> </div>
-       
-      
+          <h4> {{ site.data ["contents"]["why_title"]}} </h4>
+         <p>{{ site.data["contents"]["why_description"] }}</p>     
+         <h4>  <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">  > Github    </a>
+          <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">  > Linkedin</a>
+          
+         </h4>
+
+       </div>
     </div>
-    <div class="tech">
-        <h4> Big Data </h4>
-       <p>{{ site.data["contents"]["stack_description"] }}</p>
-       <div class="tech-icons">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="80px">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" width="80px">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" width="80px" />      </div>
- 
-      
-    </div>
-    
-   
   </div>
+
+
+  
 
   
