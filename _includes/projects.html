@@ -1,45 +1,50 @@
 {% assign lang = site.active_lang %}
-<div class="user-details">
+<div class="section-title">
   <h1> {{ site.data["contents"]["projects_title"] }} </h1>
   
 </div>
 
-<div class="user-projects">
-    <h3> {{ site.data["contents"]["project_one_title"] }}
-    <a aria-label="My Github" target="_blank" href="https://github.com/{{ site.github_username }}"><i class="icon fa fa-github" aria-hidden="true"></i></a>
-    </h3>
 
-    <div class="images-right">
-    <img src="{{ "/assets/img/field.jpg" | prepend: site.baseurl }}" width="500" />
+<div class="project-container">
+  <div class="project">
+    <div class="project-content">
+      <div class="project-label">Warehouses | AWS | Python | Spark</div>
+      <h4 class="project-title">{{ site.data["contents"]["project_one_title"] }}</h4>
+      <div class="project-details">
+        <p>{{ site.data["contents"]["project_one_description"]}}</p>
+        <ul>
+          <li><a href="https://github.com/{{ site.github_username }}" target="_blank"> > Github Repo</a> </li>
+          
+        </ul>
+
+      </div>
     </div>
-    <div class="contents">
-      <p> {{ site.data["contents"]["project_one_description"]}}</p>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="60" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" width="60" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" width="60px">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="60"/>
-
     
+    <div class="project-img">
+      <img src='{{ "/assets/img/tree.jpg" | prepend: site.baseurl }}' alt="" />
     </div>
-
+    
+  </div>
 </div>
 
-<div class="user-projects">
-    <h3> {{ site.data["contents"]["project_two_title"] }}  
-      <a aria-label="My Github" target="_blank" href="https://github.com/{{ site.github_username }}"><i class="icon fa fa-github" aria-hidden="true"></i></a>
-    </h3>
-
-    <div class="images-right">
-    <img src="{{ "/assets/img/tree.jpg" | prepend: site.baseurl }}" width="500" />
-    </div>
-    <div class="contents">
-      <p> {{ site.data["contents"]["project_two_description"]}}</p>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50px">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width="70">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original-wordmark.svg" width="70" />      
+<div class="project-container">
+  <div class="project">
+    <div class="project-content">
+      <div class="project-label">Cloud Computing | SQL | Airflow </div>
+      <h4 class="project-title">{{ site.data["contents"]["project_two_title"] }}</h4>
+      <div class="project-details">
+        <p>{{ site.data["contents"]["project_two_description"]}}</p>
+        <ul>
+          <li><a href="https://github.com/{{ site.github_username }}" target="_blank"> > Github Repo</a> </li>
           
+        </ul>
 
-    
+      </div>
     </div>
-
+    
+    <div class="project-img">
+      <img src='{{ "/assets/img/field.jpg" | prepend: site.baseurl }}' alt="" />
+    </div>
+    
+  </div>
 </div>
