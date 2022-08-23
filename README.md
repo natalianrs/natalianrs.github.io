@@ -11,10 +11,10 @@ Portfolio website to showcase personal projects. <br> <br>
 
 ### 🔆 Features
 - Theme generated using Jekyll and SASS. 
-- Dark/light mode toggle with Javascript
+- Dark/light mode toggle with javascript
 - Multilingual options with [Polyglot](https://github.com/untra/polyglot) plugin
-- Particles background effect using [Particle.js](https://github.com/VincentGarreau/particles.js/) javascript library
-- Smooth Vertical Scrool with [Sweet Scrool](https://github.com/tsuyoshiwada/sweet-scroll) library
+- Particles background effect using [Particle.js](https://github.com/VincentGarreau/particles.js/) library
+- Smooth vertical scrool with [Sweet Scrool](https://github.com/tsuyoshiwada/sweet-scroll) library
 - Responsive carousel with [Flickity](https://github.com/metafizzy/flickity)
 
 #
