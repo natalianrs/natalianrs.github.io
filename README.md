@@ -15,6 +15,7 @@ Portfolio website to showcase personal projects. <br> <br>
 - Multilingual options with [Polyglot](https://github.com/untra/polyglot) plugin
 - Particles background effect using [Particle.js](https://github.com/VincentGarreau/particles.js/) javascript library
 - Smooth Vertical Scrool with [Sweet Scrool](https://github.com/tsuyoshiwada/sweet-scroll) library
+- Responsive carousel with [Flickity](https://github.com/metafizzy/flickity)
 
 #
 ### 🛠 Settings 
