@@ -10,7 +10,7 @@ Portfolio website to showcase personal projects. <br> <br>
 
 
 ### 🔆 Features
-- Theme generated using Jekyll and SASS. 
+- Theme generated using Jekyll and Sass. 
 - Dark/light mode toggle with javascript
 - Multilingual options with [Polyglot](https://github.com/untra/polyglot) plugin
 - Particles background effect using [Particle.js](https://github.com/VincentGarreau/particles.js/) library
@@ -20,13 +20,13 @@ Portfolio website to showcase personal projects. <br> <br>
 #
 ### 🛠 Settings 
 - Install Nodejs
-- Install SASS
+- Install Sass
 - Install Ruby
 - Install Jekyll `gem install jekyll bundler`
 - Install Polyglot Plugin `gem install jekyll-polyglot`
 
 ### Running locally
-- Run Sass `sass sass --watch <input_folder>:<output_folder> `
+- Run Sass `sass --watch <input_folder>:<output_folder> `
 - Build site and run server `bundle exec jekyll serve --watch`
 
 #
