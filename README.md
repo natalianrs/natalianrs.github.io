@@ -20,7 +20,7 @@ Portfolio website to showcase personal projects. <br> <br>
 #
 ### 🛠 Settings 
 - Install Nodejs
-- Install Sass
+- Install Sass `npm install -g sass`
 - Install Ruby
 - Install Jekyll `gem install jekyll bundler`
 - Install Polyglot Plugin `gem install jekyll-polyglot`
