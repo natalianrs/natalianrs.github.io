@@ -1,7 +1,7 @@
    <h1> Portfolio </h1>
 Portfolio website to showcase personal projects. <br> <br>
 
-<p> <img src="https://custom-icon-badges.herokuapp.com/badge/-In development-ea4aaa?color=F25278&style=for-the-badge&logo=star&logoColor=white"/>    <img src="https://custom-icon-badges.herokuapp.com/github/last-commit/natalianrs/natalianrs.github.io?color=F25278&style=for-the-badge&logo=history&logoColor=white"/> <img src="https://custom-icon-badges.herokuapp.com/github/deployments/natalianrs/natalianrs.github.io/github-pages?color=F25278&style=for-the-badge&logo=rocket&logoColor=white"/> 
+<p> <img src="https://custom-icon-badges.herokuapp.com/badge/state-In development-ea4aaa?color=F25278&style=for-the-badge&logo=rocket&logoColor=white"/>    <img src="https://custom-icon-badges.herokuapp.com/github/last-commit/natalianrs/natalianrs.github.io?color=F25278&style=for-the-badge&logo=history&logoColor=white"/>  
    </p>
    
    
