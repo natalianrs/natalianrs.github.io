@@ -3598,8 +3598,8 @@ sup, sub {
   line-height: 0; }
 
 :root {
-  --color-background-top-bottom: #101417;
-  --color-background-body: #14191d;
+  --color-background-top-bottom: #1d2125;
+  --color-background-body: #24292e;
   --color-font-header-foot: #efebe8 ;
   --color-font-body: #efebe8 ;
   --secundary: #f7238a;
