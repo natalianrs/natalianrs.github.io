@@ -28,7 +28,7 @@
     display: block;
     line-height: 1;
     white-space: nowrap;    
-    color: var(--color-font-header-foot);    
+    color: var(--color-font-header-foot);
     @media only screen and (min-width:$cut){
       margin: 0;
       font-size: 100px;
@@ -41,7 +41,7 @@
     white-space: nowrap;
     display: block;
     line-height: 1;
-     margin-bottom: 10px;
+    margin-bottom: 10px;
     text-transform: lowercase;
     @media only screen and (min-width:$cut){
       margin: 5px;       
@@ -58,6 +58,19 @@
       font-size: 40px;
     }
   }
+  .description-me {
+    margin-left: 10px;
+    font-weight: 400;
+    text-align: left;
+    color: var(--color-font-header-foot);
+    font-size: 15px;
+    @media only screen and (min-width:$cut){
+      font-size: 19px;
+      max-width: 85%;
+
+    }
+
+  }
 }
 
 .header-links {
@@ -66,17 +79,19 @@
   .link {
     color: var(--color-font-header-foot);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     margin: 10px;
     &:hover {
       color: var(--secundary);
       font-weight: 800;
     }
     @media only screen and (min-width:$cut){
-      font-size: 20px;
+      font-size: 22px;
     }
   }
 }
+  
+
   .header-lang {
     margin: 10px;
     text-align: right;
