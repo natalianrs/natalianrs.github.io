@@ -3614,7 +3614,7 @@ html[data-theme='dark'] {
   --color-background-body: #f0edd1;
   --color-font-header-foot: #064635 ;
   --color-font-body: #064635 ;
-  --secundary: #eb462d;
+  --secundary: #da086e;
   --sun-padding-left: 10px;
   --sun-padding-top:12px ;
   --sun-display: inline-flex;
@@ -3709,6 +3709,16 @@ html[data-theme='dark'] {
     @media only screen and (min-width: 768px) {
       .header .site-description {
         font-size: 40px; } }
+  .header .description-me {
+    margin-left: 10px;
+    font-weight: 400;
+    text-align: left;
+    color: var(--color-font-header-foot);
+    font-size: 15px; }
+    @media only screen and (min-width: 768px) {
+      .header .description-me {
+        font-size: 19px;
+        max-width: 85%; } }
 
 .header-links {
   margin: 0;
@@ -3716,14 +3726,14 @@ html[data-theme='dark'] {
   .header-links .link {
     color: var(--color-font-header-foot);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     margin: 10px; }
     .header-links .link:hover {
       color: var(--secundary);
       font-weight: 800; }
     @media only screen and (min-width: 768px) {
       .header-links .link {
-        font-size: 20px; } }
+        font-size: 22px; } }
 
 .header-lang {
   margin: 10px;
@@ -3855,9 +3865,7 @@ html[data-theme='dark'] {
   .user .tech {
     margin: 25px;
     background-color: var(--color-background-top-bottom);
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    border: solid 2px var(--secundary);
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; }
+    border: solid 1.5px var(--secundary); }
     .user .tech:hover {
       transform: scale(1.02); }
     @media only screen and (min-width: 768px) {
@@ -3875,7 +3883,7 @@ html[data-theme='dark'] {
         color: var(--color-background-body);
         background-color: var(--secundary); }
     .user .tech .tech-icons {
-      width: 20%;
+      width: 17%;
       display: inline-flex;
       justify-content: center;
       filter: var(--tech-icon-filter);
@@ -4003,6 +4011,28 @@ html[data-theme='dark'] {
     margin-top: 0;
     margin: 0;
     padding-top: 1rem; }
+  .footer .foot {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    @media only screen and (min-width: 768px) {
+      .footer .foot {
+        flex-wrap: nowrap;
+        width: 80%; } }
+    .footer .foot .contact {
+      margin: 25px; }
+      @media only screen and (min-width: 768px) {
+        .footer .foot .contact {
+          flex-wrap: nowrap;
+          min-width: 45%;
+          max-width: 50%; } }
+      .footer .foot .contact p, .footer .foot .contact a, .footer .foot .contact h1 {
+        text-align: center; }
   .footer .fa {
     text-decoration: none;
     margin: 0;
@@ -4031,6 +4061,7 @@ html[data-theme='dark'] {
       .footer .up .icon:hover {
         color: var(--secundary); }
 
+/* projects cards*/
 .project ul, ol {
   padding: 0;
   margin: 0;

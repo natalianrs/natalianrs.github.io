@@ -6,5 +6,5 @@ var flkty = new Flickity( elem, {
   cellAlign: 'center',
   wrapAround: true, 
   autoPlay: 6000,
-  contain: true
+  draggable: false
 });
