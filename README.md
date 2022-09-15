@@ -32,4 +32,3 @@ Portfolio website to showcase personal projects. <br> <br>
 #
 ### ✨Credits
 - [Jekyll Template](https://github.com/nrandecker/particle) <br>
-- [Brittany Chiang](https://github.com/bchiang7/v4)
