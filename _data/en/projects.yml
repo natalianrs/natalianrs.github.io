@@ -1,0 +1,32 @@
+projects_title: Projects
+
+project_tag_postgre: " ETL | Data Modeling | Data Warehouse | PostgreSQL"
+project_title_postgre: "ETL Data Pipeline with PostgreSQL"
+project_description_postgre: " Created a data model and built an ETL data pipeline in PostgreSQL: <br><br>
+> Modeled user activity data to create a relational database in PostgreSQL to fit needs from a streaming app analysis. <br><br>
+> Built an ETL data pipeline to extract data from different sources and load into a datawarehouse based in PostgreSQL"
+
+project_tag_cassandra: " ETL | Data Modeling | Cassandra "
+project_title_cassandra: "ETL Data Pipeline with NoSQL Cassandra"
+project_description_cassandra: " Developed an non-relational data model and built a ETL data pipeline to load data in Apache Cassandra: <br> <br>
+> Built a non-relational data model based on queries from data analysis. Each querie was designed into one specific table to facilitate data analysis. <br><br>
+> Built a pipeline to extract data from sources, and load them intro tables in Cassandra. "
+
+project_tag_redshift: " ETL | Data Warehouse | AWS S3 | AWS Redshift"
+project_title_redshift: "ETL Data Pipeline with AWS S3 and Redshift"
+project_description_redshift: " Built a pipeline to extract data from S3 buckets and load them into a cloud datawarehouse in Redshift:   <br><br>
+> Worked with AWS SDK for Python Boto 3 to create and configure Amazon Services intances.  <br><br>
+> Data was transformed into a set of dimensional tables to facilitate the process of data analysis. "
+
+project_tag_datalake: " ETL | Spark | Data Lake | AWS S3 "
+project_title_datalake: "ETL Data Pipeline with Spark and AWS S3 "
+project_description_datalake: " Built a ETL pipeline to extract data from a datalake and process the data with Spark:   <br><br>
+> The data processing with spark was deployed on an EMR cluster using AWS.  <br><br>
+> The transformed data was loaded into AWS S3 as a set of dimensional tables ."
+
+project_tag_airflow: " ETL | Automating Pipelines | Apache Airflow "
+project_title_airflow: "Pipeline Automation with Airflow "
+project_description_airflow: " Built an ETL data pipeline automated using Apache Airflow: <br><br>
+> Extracted data from different sources and load them into Redshift cluster. <br><br>
+> Created custom operators to perform specific tasks to handle and load data  <br><br>
+> Created a Redshift cluster to store data. "

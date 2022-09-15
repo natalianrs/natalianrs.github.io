@@ -1,0 +1,32 @@
+projects_title: Projetos
+
+project_tag_postgre: " ETL | Data Modeling | Data Warehouse | PostgreSQL"
+project_title_postgre: "Pipeline de Dados ETL com PostgreSQL"
+project_description_postgre: " Foi criado um modelo de dados relacionais e um pipeline de dados ETL com PostgreSQL: <br> <br>
+> Modelei os dados de usuários para criar um banco de dados relacionais em PostgreSQL que se adequaria as necessidades da análise de um app de streaming. <br> <br>
+> Construi um pipeline ETL que extrai dados from fontes diferentes and carrega para um datawarehouse com PostgreSQL ."
+
+project_tag_cassandra: " ETL | Data Modeling | NoSQL Cassandra "
+project_title_cassandra: "Pipeline de dados ETL com NoSQL Cassandra "
+project_description_cassandra: " Desenvolvi um modelo de dados não-relacional e um pipeline de dados para Apache Cassandra: <br><br>
+> Criei um modelo de dados não-relaciona baseado nas queries definidas para a posterior análise de dados. <br><br>
+> Construi um pipeline para extrair os dados de diferentes fontes, e carregar diferentes tabelas para cada querie no database Cassandra."
+
+project_tag_redshift: " ETL | Data Warehouse | AWS S3 | AWS Redshift"
+project_title_redshift: "Pipeline de Dados ETL com AWS S3 e Redshift "
+project_description_redshift: " Desenvolvi um pipeline para extrair dados de S3 buckets e carregar em cloud em um datawarehouse Redshift:  <br><br>
+> Trabalhei com AWS SDK Python - Boto 3 para criar e configurar os serviços cloud da Amazon.  <br><br>
+> Dados foram transformados em um set dimensional para facilitar o processo de análise de dados. "
+
+project_tag_datalake: " ETL | Spark | Data Lake | AWS S3 "
+project_title_datalake: "Pipeline de dados ETL com Spark e AWS S3 "
+project_description_datalake: " Construi um pipeline de dados ELT para extrair dados de um data lake e processar os dados com Apache Spark: <br><br>
+> O processamento de dados com spark foi implantado em um EMR cluster usando AWS. <br><br>
+> Os dados transformados foram carregados em AWS S3 buckets como um set de tabelas dimensionais. "
+
+project_tag_airflow: " ETL | Automating Pipelines | Apache Airflow "
+project_title_airflow: "Automatização de pipelines com Airflow "
+project_description_airflow: " Desenvolvi um pipeline de dados automatizado com Apache Airflow: <br><br>
+> Dados from extraidos de fontes diferentes e carregados em um cluster em redshift. <br><br>
+> Criei operadores para realizar tarefas especificas para manipular e carregar dados.  <br><br>
+> Criei um cluster em redshift para armazenar dados. "

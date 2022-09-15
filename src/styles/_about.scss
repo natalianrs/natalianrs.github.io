@@ -11,8 +11,14 @@
 
 .user-details {
   text-align: left;
-  margin: 5px auto;
+  margin: 0px auto;
+  a, h3, h4 {
+    margin-top: 1px;
+    margin-left: 25px;
+    margin-bottom: -1px;
+  }
   a {
+    font-size: 13px;
     color: var(--secundary);
     text-decoration: none;
     font-family: monospace;
@@ -21,8 +27,8 @@
       background-color: var(--secundary);
     }
   }
+   
 }
-
 
 .user {
   text-align: center;
@@ -44,7 +50,8 @@
   .tech {
   margin: 25px;
   background-color: var(--color-background-top-bottom);
-   border:solid 1.5px var(--secundary);
+  border-radius: 5px;
+  border:solid 1.5px var(--secundary);
   &:hover{ 
     transform: scale(1.02);
   }
@@ -52,7 +59,7 @@
     flex-wrap: nowrap;
     font-size: 75px;
     min-width: 45%;
-    max-width: 50%;}
+    max-width: 100%;}
   a {
     color: var(--secundary);
     text-decoration: none;
@@ -63,21 +70,57 @@
       background-color: var(--secundary);
   }}
   .tech-icons {
-  width: 17%;
+  width: 12%;
+  margin: 5px 10px 5px 10px; 
   display: inline-flex;
-  justify-content: center;
+  justify-content: center; 
+  align-items: center;
+  flex-wrap: nowrap;
   filter: var(--tech-icon-filter); 
   transition: all 0.1s ease-in-out;
-  img {
-    padding: 0 5px 0 5px;
+  img {    
+    padding: 1px 2px 1px 2px;
   }
     &:hover {
     filter:none; 
-  } 
-  
-  } 
+  }}}
 
+  .tech2 {
+  margin: 25px;
+  background-color: var(--color-background-top-bottom);
+   border:solid 1.5px var(--secundary);
+  &:hover{ 
+    transform: scale(1.02);
   }
+  @media only screen and (min-width: $cut) {
+    flex-wrap: nowrap;
+    font-size: 75px;
+    min-width: 45%;
+    max-width: 100%;}
+  a {
+    color: var(--secundary);
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 15px;
+    &:hover{
+      color: var(--color-background-body);
+      background-color: var(--secundary);
+  }}
+  .tech-icons {
+  width: 12%;
+  margin: 5px 10px 5px 10px; 
+  display: inline-flex;
+  justify-content: center; 
+  align-items: center;
+  flex-wrap: nowrap;
+  filter: var(--tech-icon-filter); 
+  transition: all 0.1s ease-in-out;
+  img {    
+    padding: 1px 2px 1px 2px;
+  }
+    &:hover {
+    filter:none; 
+  }}}
   
   
   .tech p { 
@@ -98,6 +141,8 @@
     color: var(--color-font-body);
     
   }
+
+   
   
   
 }

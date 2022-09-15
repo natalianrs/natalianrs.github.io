@@ -1,72 +1,53 @@
 {% assign lang = site.active_lang %}
 <div class="user-details">
   <div class="section-title">
-  <h1> {{ site.data.contents.about_title }} </h1> </div>
-  <h4>{{ site.data["contents"]["about_description"] }} 
-     
-   </h4>
-  
-  
-  
+    <h1> {{ site.data.about.about_title }} </h1>
+  </div>    
+  <h4>{{ site.data["about"]["about_description"] }}</h4>
+  <h4>
+    <a href="https://www.linkedin.com/in/natalianrs/" target="_blank"> > Linkedin </a>
+      </h4> 
+ 
+    
 </div>
 
+<div class="user-details">  
   <div class="user">
-       
+    
     <div class="tech">
-        <h4> Big Data </h4>
-       <p>{{ site.data["contents"]["stack_description"] }}</p>
-       <div class="tech-icons">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" width="90%" /> 
-
-         <img src="{{'/assets/img/cassandra.svg' | prepend: site.baseurl}}" width="110%" >
-          
-         
-           <img src="{{'/assets/img/airflow.svg' | prepend: site.baseurl}}" width="60%">
-            <img src="{{'/assets/img/spark.svg' | prepend: site.baseurl}}" width="100%"> 
+       <p>{{ site.data["about"]["stack_description1"] }}</p>    
       
+      <div class="tech-icons">
+        <img src="{{'/assets/img/python.svg' | prepend: site.baseurl}}" width="110%">
+        <img src="{{'/assets/img/postgresql.svg' | prepend: site.baseurl}}" width="140%">
+        <img src="{{'/assets/img/mongodb.svg' | prepend: site.baseurl}}" width="100%">
+        <img src="{{'/assets/img/cassandra.svg' | prepend: site.baseurl}}" width="200%">
+      </div> 
+    </div>
       
-           </div>
-     </div>
-   
-    <div class="tech">
-        <h4> Cloud Solutions </h4>
-       <p>{{ site.data["contents"]["stack_description"] }}</p>
-       <div class="tech-icons">
-         <img src="{{'/assets/img/aws.svg' | prepend: site.baseurl}}" width="120%">
-          <img src="{{'/assets/img/docker.svg' | prepend: site.baseurl}}" width="100%">
-      
-           </div>
-     </div>
-  </div>
-
-  <div class="user">
-    <div class="tech">
-        <h4> Back End </h4>
-        <p>{{ site.data["contents"]["stack_description"] }}</p>  
+      <div class="tech">
+       <p>{{ site.data["about"]["stack_description2"] }}</p>    
         <div class="tech-icons">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="100%">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" width="100%">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" width="100%">
-         
-         
+          <img src="{{'/assets/img/docker.svg' | prepend: site.baseurl}}" width="100%">
+          <img src="{{'/assets/img/aws.svg' | prepend: site.baseurl}}" width="190%">
+          <img src="{{'/assets/img/spark.svg' | prepend: site.baseurl}}" height="130%">
+          <img src="{{'/assets/img/airflow.svg' | prepend: site.baseurl}}" width="70%">
+        </div>
+    </div> 
 
-      
-      </div>
-    </div>
-   
+  </div>  
+</div>
+
+ <div class="user-details">  
+  <div class="user">    
     <div class="tech">
-          <h4> {{ site.data ["contents"]["why_title"]}} </h4>
-         <p>{{ site.data["contents"]["why_description"] }}</p>     
-         <h4>  <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">  > Github    </a>
-          <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">  > Linkedin</a>
-          
-         </h4>
-
-       </div>
-    </div>
-  </div>
-
-
+    <h4 style="text-align: left;">{{ site.data["about"]["why_title"] }}</h4>  
+    <p>{{ site.data["about"]["why_description"] }}</p>  
+    </div> 
+  </div>  
+</div>
   
 
-  
+</div>
+
+

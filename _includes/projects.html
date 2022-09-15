@@ -1,106 +1,93 @@
 {% assign lang = site.active_lang %}
 <div class="section-title">
-  <h1> {{ site.data["contents"]["projects_title"] }} </h1>
+  <h1> {{ site.data["projects"]["projects_title"] }} </h1>
   
 </div>
 
 
 <div class="main-carousel">
   
+   
+     <div class="carousel-cell"> 
+    <div class="project-container">
+    <div class="project">      
+      <div class="project-content">
+        <div class="project-label"> {{ site.data["projects"]["project_tag_redshift"]}}</div>
+        <h4 class="project-title">{{ site.data["projects"]["project_title_redshift"] }}</h4>
+        <div class="project-details">
+          <div class="project-text">
+          <p>{{ site.data["projects"]["project_description_redshift"]}}</p>
+          </div>
+          <a href="https://github.com/natalianrs/ETL_Pipeline_Datawarehouse_Redshift#readme" target="_blank"> > Github Repo</a>  
+        </div>
+      </div>        
+    </div>
+  </div></div>
+
+    <div class="carousel-cell"> 
+    <div class="project-container">
+    <div class="project">      
+      <div class="project-content">
+        <div class="project-label"> {{ site.data["projects"]["project_tag_datalake"]}}</div>
+        <h4 class="project-title">{{ site.data["projects"]["project_title_datalake"] }}</h4>
+        <div class="project-details">
+          <div class="project-text">
+          <p>{{ site.data["projects"]["project_description_datalake"]}}</p>
+        </div>
+           <a href="https://github.com/natalianrs/ETL_Pipeline_Spark_DataLake_S3#readme" target="_blank"> > Github Repo</a>  
+        </div>
+      </div>        
+    </div>
+  </div></div>
+
+    <div class="carousel-cell"> 
+    <div class="project-container">
+    <div class="project">      
+      <div class="project-content">
+        <div class="project-label"> {{ site.data["projects"]["project_tag_airflow"]}}</div>
+        <h4 class="project-title">{{ site.data["projects"]["project_title_airflow"] }}</h4>
+        <div class="project-details">
+          <div class="project-text">
+          <p>{{ site.data["projects"]["project_description_airflow"]}}</p>
+        </div>
+           <a href="https://github.com/natalianrs/ETL_Pipeline_Automation_Airflow#readme" target="_blank"> > Github Repo</a>  
+        </div>
+      </div>        
+    </div>
+  </div></div>
+
+<div class="carousel-cell"> 
+    <div class="project-container">
+    <div class="project">      
+      <div class="project-content">
+        <div class="project-label"> {{ site.data["projects"]["project_tag_postgre"]}}</div>
+        <h4 class="project-title">{{ site.data["projects"]["project_title_postgre"] }}</h4>
+        <div class="project-details">
+          <div class="project-text">
+          <p>{{ site.data["projects"]["project_description_postgre"]}}</p>
+        </div>
+           <a href="https://github.com/natalianrs/ETL_Pipeline_PostgreSQL#readme" target="_blank"> > Github Repo</a>  
+        </div>
+      </div>        
+    </div>
+  </div></div>
+
   <div class="carousel-cell"> 
     <div class="project-container">
-    <div class="project">
+    <div class="project">      
       <div class="project-content">
-        <div class="project-label">Warehouses | AWS | Python | Spark</div>
-        <h4 class="project-title">{{ site.data["contents"]["project_one_title"] }}</h4>
+        <div class="project-label"> {{ site.data["projects"]["project_tag_cassandra"]}}</div>
+        <h4 class="project-title">{{ site.data["projects"]["project_title_cassandra"] }}</h4>
         <div class="project-details">
-          <p>{{ site.data["contents"]["project_one_description"]}}</p>
-          <ul>
-            <li><a href="https://github.com/{{ site.github_username }}" target="_blank"> > Github Repo</a> </li>
-            
-          </ul>
-
+          <div class="project-text">
+          <p>{{ site.data["projects"]["project_description_cassandra"]}}</p>
         </div>
-      </div>
-      
-      <div class="project-img">
-        <img src='{{ "/assets/img/tree.jpg" | prepend: site.baseurl }}' alt="" />
-      </div>
-      
+           <a href="https://github.com/natalianrs/ETL_Pipeline_Cassandra#readme" target="_blank"> > Github Repo</a>  
+        </div>
+      </div>        
     </div>
   </div></div>
   
 
-
-  <div class="carousel-cell"> 
-  <div class="project-container">
-  <div class="project">
-    <div class="project-content">
-      <div class="project-label">Cloud Computing | SQL | Airflow </div>
-      <h4 class="project-title">{{ site.data["contents"]["project_two_title"] }}</h4>
-      <div class="project-details">
-        <p>{{ site.data["contents"]["project_two_description"]}}</p>
-        <ul>
-          <li><a href="https://github.com/{{ site.github_username }}" target="_blank"> > Github Repo</a> </li>
-          
-        </ul>
-
-      </div>
-    </div>
     
-    <div class="project-img">
-      <img src='{{ "/assets/img/field.jpg" | prepend: site.baseurl }}' alt="" />
-    </div>
-    
-  </div>
-</div> </div>
-  
-
-  <div class="carousel-cell">
-  <div class="project-container">
-  <div class="project">
-    <div class="project-content">
-      <div class="project-label">Cloud Computing | SQL | Airflow </div>
-      <h4 class="project-title">{{ site.data["contents"]["project_two_title"] }}</h4>
-      <div class="project-details">
-        <p>{{ site.data["contents"]["project_two_description"]}}</p>
-        <ul>
-          <li><a href="https://github.com/{{ site.github_username }}" target="_blank"> > Github Repo</a> </li>
-          
-        </ul>
-
-      </div>
-    </div>
-    
-    <div class="project-img">
-      <img src='{{ "/assets/img/field.jpg" | prepend: site.baseurl }}' alt="" />
-    </div>
-    
-  </div>
-</div> </div>
-
- <div class="carousel-cell"> 
-    <div class="project-container">
-    <div class="project">
-      <div class="project-content">
-        <div class="project-label">Warehouses | AWS | Python | Spark</div>
-        <h4 class="project-title">{{ site.data["contents"]["project_one_title"] }}</h4>
-        <div class="project-details">
-          <p>{{ site.data["contents"]["project_one_description"]}}</p>
-          <ul>
-            <li><a href="https://github.com/{{ site.github_username }}" target="_blank"> > Github Repo</a> </li>
-            
-          </ul>
-
-        </div>
-      </div>
-      
-      <div class="project-img">
-        <img src='{{ "/assets/img/tree.jpg" | prepend: site.baseurl }}' alt="" />
-      </div>
-      
-    </div>
-  </div></div>
-  
- 
 </div>
