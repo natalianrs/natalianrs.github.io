@@ -1,0 +1,134 @@
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto; 
+
+  @media only screen and (min-width: $cut) {
+    width: 80%;
+  }
+}
+
+.user-projects {
+  margin: 20px auto;
+  color: var(--color-font-body);
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;   
+    &:hover{ 
+    transform: scale(1.01);
+     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   }
+ }  
+  h3 {
+    color: var(--secundary);
+  }
+  h5 {
+    margin: 0;
+  }
+  li {
+    font-size: 1.1rem;
+  }
+  p {
+    margin-right: 5px;
+  }
+  a{
+    text-decoration: none;
+    cursor: pointer;
+    
+    padding: 15px 25px;
+    border-radius: 20px;
+    background-color: var(--color-background-top-bottom);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: var(--color-font-body);
+    
+    &:hover{
+      background-color: transparent;
+      border: 1px dashed var(--color-background-top-bottom);
+      color: var(--secundary);
+      transition: color 0.3s ease-out,
+              background-color 0.3s ease-out,
+               
+
+    }
+  }
+  .icon{
+     color:  var(--color-font-body);
+  }
+}
+
+.contents {
+  @media only screen and (min-width: $cut) {
+    margin-left: 0;
+    width: 48%;
+  }
+}
+
+.contents-right {
+  @media only screen and (min-width: $cut) {
+    float: right;
+    margin-top: -5%;
+    width: 48%;
+  }
+}
+.images-right {
+  @media only screen and (min-width: $cut) {
+    float: right;
+    width: 48%;
+  }
+  img {
+    @media only screen and (min-width: $cut) {
+      float: right;
+    }
+  }
+}
+
+.images-left {
+  @media only screen and (min-width: $cut) {
+    float: left;
+    width: 48%;
+  }
+  img {
+    @media only screen and (min-width: $cut) {
+      float: left;
+    }
+  }
+}
+
+.project-link {
+  display: inline-block;
+  margin: 10px 0px;
+  padding: 5px;
+  color: var(--color-font-body);
+  background-color: transparent;
+  border: 1px solid var(--color-font-body);
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease-out,
+              background-color 0.3s ease-out,
+              border-color 0.3s ease-out;
+  &:hover {
+    background-color: var(--color-link-hover);
+    border-color: var(--color-link-hover);
+    color: #fff;
+    transition: color 0.3s ease-in,
+                background-color 0.3s ease-in,
+                border-color 0.3s ease-in;
+  }
+  &:active {
+    background-color: var(--color-link-hover);
+    border-color: var(--color-link-hover);
+    color: var(--color-font-body);
+    transition: color 0.3s ease-in,
+                background-color 0.3s ease-in,
+                border-color 0.3s ease-in;
+  }
+}

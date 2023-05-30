@@ -1,0 +1,191 @@
+#particles-js {
+  background: var(--color-background-top-bottom);
+  display: flex;
+  vertical-align: bottom;
+  width: 100%; 
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  .particles-js-canvas-el {
+    width:100% !important;
+    height:100vh !important;
+  }
+}
+
+.header {
+  z-index: 1;
+  text-align: left;
+  color:var(--color-font-header-foot);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;   
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  .site-title {
+    font-size: 50px;
+    display: block;
+    line-height: 1;
+    white-space: nowrap;    
+    color: var(--color-font-header-foot);    
+    @media only screen and (min-width:$cut){
+      margin: 0;
+      font-size: 100px;
+     
+    }
+  }
+  .site-hello{
+    font-size: 40px;
+    color:var(--color-font-header-foot);
+    white-space: nowrap;
+    display: block;
+    line-height: 1;
+     margin-bottom: 10px;
+    text-transform: lowercase;
+    @media only screen and (min-width:$cut){
+      margin: 5px;       
+      font-size: 50px;
+    }
+  }
+  .site-description {
+    font-size: 20px;
+    display: block;
+    line-height: 1;
+    color: var(--color-font-header-foot);
+    margin-top: 10px;
+    @media only screen and (min-width:$cut){
+      font-size: 40px;
+    }
+  }
+}
+
+.header-links {
+  margin: 0;
+  color: var(--color-font-header-foot);
+  .link {
+    color: var(--color-font-header-foot);
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+    &:hover {
+      color: var(--secundary);
+      font-weight: 800;
+    }
+    @media only screen and (min-width:$cut){
+      font-size: 20px;
+    }
+  }
+}
+  .header-lang {
+    margin: 10px;
+    text-align: right;
+    color: var(--color-font-header-foot);
+    .link {
+    text-decoration: none;
+    font-size: 15px;
+    margin: 5px;
+    &:hover {
+      color: var(--secundary);
+    }
+    @media only screen and (min-width: 550px) {
+      font-size: 15px;
+    }
+    }
+    .toggle-container {
+     position: absolute;
+     display: inline;
+     top: 1%;
+     fill: var(--color-font-header-foot);
+   }
+   .a {
+    display: inline-block;
+   }
+  }
+
+.fa-sun-o {
+    padding-left: var(--sun-padding-left);
+    padding-top: var(--sun-padding-top);
+    display: var(--sun-display);
+    cursor: pointer;
+    &:hover {
+      color: var(--secundary);
+      
+    }
+    
+
+}
+.fa-moon-o {
+     
+    display: inline-flex;
+    padding-left: var(--moon-padding-left);
+    padding-top: var(--moon-padding-top);
+    display : var(--moon-display);
+    cursor: pointer;
+    &:hover {
+      color: var(--secundary);
+    }
+  }
+
+.header-icons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  .icon {
+    text-align: center;
+    color: var(--color-font-header-foot);
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+    transition: all .7s;
+    &:hover {
+      color: var(--color-link-hover);
+      background: #FFF;
+    }
+    &:active {
+      color: var(--color-link-hover);
+      background: #FFF;
+    }
+    @media only screen and (min-width:$cut) {
+      width: 35px;
+      height: 35px;
+      font-size: 35px;
+    }
+  }
+}
+
+.down {
+  color: var(--color-font-header-foot);
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  .icon {
+      position: absolute;
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: 100px;
+      height: 100px;
+      fill: var(--color-font-header-foot);
+      -webkit-animation: pulse 1.3s infinite;
+      animation: pulse 1.3s infinite;
+      &:hover {
+        color: var(--secundary);
+      }
+      &:active {
+        color: var(--secundary);
+      }
+  }
+}

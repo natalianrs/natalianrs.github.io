@@ -1,0 +1,107 @@
+#about {
+  width: 90%;
+  background-color: var(--color-background-body);
+  margin: 0 auto;
+  max-width: 960px;
+  
+  @media only screen and (min-width: $cut) {
+    width: 80%;
+  }
+}
+
+.user-details {
+  text-align: left;
+  margin: 5px auto;
+  a {
+    color: var(--secundary);
+    text-decoration: none;
+    font-family: monospace;
+    &:hover{
+      color: var(--color-background-body);
+      background-color: var(--secundary);
+    }
+  }
+}
+
+
+.user {
+  text-align: center;
+  font-size: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  p {
+    font-size: 16px;
+    text-align: justify;        
+  }
+
+  @media only screen and (min-width: $cut) {
+    flex-wrap: nowrap;
+    font-size: 75px;
+  }
+
+  .tech {
+  margin: 25px;
+  background-color: var(--color-background-top-bottom);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border:solid 2px var(--secundary);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  &:hover{ 
+    transform: scale(1.02);
+  }
+  @media only screen and (min-width: $cut) {
+    flex-wrap: nowrap;
+    font-size: 75px;
+    min-width: 45%;
+    max-width: 50%;}
+  a {
+    color: var(--secundary);
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 15px;
+    &:hover{
+      color: var(--color-background-body);
+      background-color: var(--secundary);
+  }}
+  .tech-icons {
+  width: 20%;
+  display: inline-flex;
+  justify-content: center;
+  filter: var(--tech-icon-filter); 
+  transition: all 0.1s ease-in-out;
+  img {
+    padding: 0 5px 0 5px;
+  }
+    &:hover {
+    filter:none; 
+  } 
+  
+  } 
+
+  }
+  
+  
+  .tech p { 
+    margin: 20px;
+    color: var(--color-font-header-foot);
+
+  }
+
+  .tech h4 {
+    font-size: 1.2rem ;
+    margin: 20px;
+    color: var(--color-font-body);
+     
+  }
+  .tech h3 {
+    font-size: 1.2rem ;
+    margin: 20px;
+    color: var(--color-font-body);
+    
+  }
+  
+  
+}
+
+ 
